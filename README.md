@@ -1,1 +1,1 @@
-# GI-annotator_tool
+# GI_annotator_tool
