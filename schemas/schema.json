@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "Write condition of patient"
+        },
+        {
+          "type": "checkbox",
+          "name": "Symptoms",
+          "choices": [
+            "Headache",
+            "Stomachache",
+            "Body pain"
+          ]
+        },
+        {
+          "type": "boolean",
+          "name": "High Risk"
+        }
+      ]
+    }
+  ]
+}

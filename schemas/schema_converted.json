@@ -1,0 +1,19 @@
+{
+  "title": "AnnotationForm",
+  "type": "object",
+  "properties": {
+    "Write condition of patient": {
+      "type": "string"
+    },
+    "Symptoms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "High Risk": {
+      "type": "string"
+    }
+  },
+  "required": []
+}

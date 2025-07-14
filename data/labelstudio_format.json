@@ -1,0 +1,40 @@
+{
+  "data": {
+    "text": "Example colonoscopy report..."
+  },
+  "predictions": [
+    {
+      "model_version": "v1",
+      "result": [
+        {
+          "from_name": "indication",
+          "to_name": "text",
+          "type": "choices",
+          "value": {
+            "choices": [
+              "surveillance"
+            ]
+          }
+        },
+        {
+          "from_name": "bowel_prep",
+          "to_name": "text",
+          "type": "choices",
+          "value": {
+            "choices": [
+              "fair"
+            ]
+          }
+        },
+        {
+          "from_name": "num_polyps",
+          "to_name": "text",
+          "type": "number",
+          "value": {
+            "number": 7
+          }
+        }
+      ]
+    }
+  ]
+}
